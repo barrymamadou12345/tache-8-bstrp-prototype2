@@ -1,0 +1,150 @@
+
+@media screen and (max-width:1199px) {
+    .imoro{
+        width: 150px;
+        height: 150px;
+        left: 390px;
+    }
+    .imoro1{
+        width: 150px;
+        height: 150px;
+        left: -80px;
+    }
+    .imoro5{
+        width: 150px;
+        height: 150px;
+        left: 390px;
+    }
+}
+
+@media screen and (max-width:991px) {
+    /*nav-bar*/ 
+
+    .header-scrolled{
+        height: auto;
+    }
+    .navbar-nav{
+        gap:0px;
+    }
+
+   /* Timeline */
+
+   .imoro{
+        width: 130px;
+        height: 130px;
+        left: 290px;
+    }
+    .imoro1{
+        width: 130px;
+        height: 130px;
+        left: 70px;
+    }
+    .imoro5{
+        width: 130px;
+        height: 130px;
+        left: 290px;
+    }
+    .timeline ul li{
+        width: 0%;
+        padding: 50px 0px;
+        
+    }
+    .content{
+        padding-right: 0px;
+        padding-left: 0px;
+        text-align: justify;
+    }
+    .timeline ul li:nth-child(odd){
+        width: 70%;
+        float: left;
+        text-align: right;
+        clear: both;
+        padding-right: 230px;
+    }
+    .timeline ul li:nth-child(even){
+        width: 70%;
+        float: right;
+        text-align: left;
+        clear: both;
+        padding-left: 230px;
+    }
+
+}
+@media screen and (max-width:739px) {
+    /*section1*/ 
+
+    .welcom .btny{
+        margin-top: 260px;
+    }
+    .welcom p, h1, .btny{
+        top: -480px;
+    }
+}
+
+
+@media screen and (max-width:767px) {
+    .timeline ul li:nth-child(odd){
+        width: 90%;
+        float: left;
+        text-align: left;
+        padding-left: 100px;
+        padding-right: 0;
+
+    }
+    .timeline ul li:nth-child(even){
+        width: 90%;
+        float: left;
+        text-align: left;
+        padding-left: 100px;
+    }
+    .timeline::before{
+        left: 12px;
+        width: 2px;
+        height: 100%;
+    }
+    .imoro{
+        width: 100px;
+        height: 100px;
+        left: -40px;
+    }
+    .imoro1{
+        width: 100px;
+        height: 100px;
+        left: -40px;
+    }
+    .imoro5{
+        width: 100px;
+        height: 100px;
+        left: -40px;
+    }
+}
+@media screen and (max-width:645px) {
+    .timeline ul li:nth-child(odd){
+        width: 97%;
+        padding-left: 150px;
+
+    }
+    .navbar-brand{
+        width: 45%;
+   }
+    .timeline ul li:nth-child(even){
+        width: 97%;
+        padding-left: 150px;
+    }
+    .timeline::before{
+        left: 20%;
+        height: 96%;
+        margin: 60px 0px;
+    }
+    .imoro{
+        left: 25px;
+    }
+    .imoro1{
+        left: 25px;
+    }
+    .imoro5{
+        left: 25px;
+        font-size: 13px;
+        font-weight: 700;
+    }
+}
